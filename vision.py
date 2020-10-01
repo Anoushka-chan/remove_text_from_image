@@ -5,7 +5,6 @@ import numpy as np
 
 client = vision.ImageAnnotatorClient()
 path = 'Bath1.png'
-# path = 'OCRImg/Bath2.jpg'
 with io.open(path, 'rb') as image_file:
     content = image_file.read()
 
